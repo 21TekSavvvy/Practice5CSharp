@@ -14,12 +14,12 @@
             System.Console.WriteLine("Abnormal height");
         }
         // Height is between 165 cm and 195 cm = "Tall"
-        else if (centimeterConverted <=195 | centimeterConverted > 165)
+        else if (centimeterConverted <=195 && centimeterConverted >= 165)
         {
             System.Console.WriteLine("Tall");
         }
         // Height is between 150 cm and 165 cm = "Average height"
-        else if (centimeterConverted <= 165 | centimeterConverted > 150)
+        else if (centimeterConverted <= 165  && centimeterConverted >= 150)
         {
             System.Console.WriteLine("Average Height");
         }
